@@ -7,6 +7,7 @@
     >
 
     <ScrollView
+        android:id="@+id/scrollView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintStart_toStartOf="parent"
@@ -87,32 +88,49 @@
                     app:layout_constraintStart_toEndOf="@+id/detailActivityDate"
                     app:layout_constraintTop_toTopOf="@+id/detailActivityDate" />
 
-                <TextView
-                    android:id="@+id/detailHour"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="20dp"
-                    android:layout_marginBottom="@dimen/small_margin"
-                    android:text="@string/ride_hour"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.5"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/detailMedia1" />
-
                 <ImageView
                     android:id="@+id/detailMedia1"
-                    android:layout_width="@dimen/profile_pic_size"
-                    android:layout_height="@dimen/profile_pic_size"
+                    android:layout_width="374dp"
+                    android:layout_height="266dp"
                     android:layout_marginTop="20dp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/detailActivityDesciption"
                     tools:srcCompat="@drawable/space_invader" />
 
+                <ImageView
+                    android:id="@+id/detailMedia2"
+                    android:layout_width="374dp"
+                    android:layout_height="266dp"
+                    android:layout_marginTop="20dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/detailMedia1"
+                    tools:srcCompat="@drawable/space_invader" />
+
+                <ImageView
+                    android:id="@+id/detailMedia3"
+                    android:layout_width="374dp"
+                    android:layout_height="266dp"
+                    android:layout_marginTop="20dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/detailMedia2"
+                    tools:srcCompat="@drawable/space_invader" />
+
             </androidx.constraintlayout.widget.ConstraintLayout>
         </androidx.cardview.widget.CardView>
     </ScrollView>
+
+    <TextView
+        android:id="@+id/detailActivityLongForm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/ride_hour"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView2" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

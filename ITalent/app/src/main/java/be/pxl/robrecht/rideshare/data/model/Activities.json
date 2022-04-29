@@ -1,24 +1,164 @@
 {
   "Activities": {
     "1":{
-      "title": "test title",
-      "description": "test description",
-      "location": "test location",
-      "date": "test date",
-      "duration": "test duration",
-      "domain": "test domain",
+      "title": "Seminarie - Racoons: Oswald en chatbots",
+      "description": "De mensen van Raccoons kwamen een uiteenzetting over chatbots doen. Hoe werken ze, waar staat de technologie vandaag en waar evolueert ze naartoe in de komende jaren. ",
+      "location": "Online- presentatie via Teams door Raccoons ",
+      "date": "09/03/2021 ",
+      "duration": "3u",
+      "domain": "Seminaries",
       "longForm": "none",
-      "media": ["none"]
+      "media": ["01-01","none","none"]
     },
     "2":{
-      "title": "test title2",
-      "description": "test description2",
-      "location": "test location2",
-      "date": "test date2",
-      "duration": "test duration2",
-      "domain": "test domain2",
+      "title": "Seminarie - Brainjar: AI",
+      "description": "De medewerkers van Brainjar kwamen een korte introductie geven over de hun werkveld. Ze spraken over een hoop cases die zij hebben uitgewerkt overheen de jaren. ",
+      "location": "Online- presentatie via Teams door Brainjar ",
+      "date": "18/03/2021",
+      "duration": "3u",
+      "domain": "Seminaries",
       "longForm": "none",
-      "media": ["none"]
+      "media": ["02-01","none","none"]
+    },
+    "3":{
+      "title": "Seminarie - RCCU",
+      "description": "De RCCU (regionale computer crime units) is de dienst van de federale politie die cybercriminaliteit onderzoekt en digitaal forensisch onderzoek uitvoert. Er werd uitgelegd wat zij dagelijks doen en met welke moeilijkheden zij geconfronteerd worden. Ook hoe ze deze problemen proberen te verhelpen werd getoond.",
+      "location": "Online- presentatie via Teams door RCCU  ",
+      "date": "04/05/2021",
+      "duration": "3u",
+      "domain": "Seminaries",
+      "longForm": "none",
+      "media": ["none","none","none"]
+    },
+    "4":{
+      "title": "Seminarie – Ordina",
+      "description": "Ordina kwam een korte presentatie geven over hun bedrijf en hoe zij innovatieve oplossingen proberen aan te bieden.",
+      "location": " Online- presentatie via Teams door Ordina ",
+      "date": "11/05/2021",
+      "duration": "3u",
+      "domain": "Seminaries",
+      "longForm": "none",
+      "media": ["none","none","none"]
+    },
+    "5":{
+      "title": "Seminarie – Devoteam: Kubernetes cluster",
+      "description": "•Devoteam gaf een workshop over Kubernetes. Er werd uitgelegd wat de technologie is, daarna volgde een korte workshop waarin we onze eigen cluster opzette en beheerde.",
+      "location": "•Campus 11de Linie – lokaal G515 ",
+      "date": "10/11/2021 ",
+      "duration": "3u",
+      "domain": "Seminaries",
+      "longForm": "none",
+      "media": ["none","none","none"]
+    },
+    "6":{
+      "title": "Seminarie – IT Licious: Flutter en ",
+      "description": "It Licious kwam een korte intro geven over flutter, onder andere hoe zij de Sporza app gemigreerd hebben naar flutter. Daarna volgde er een korte workshop om kennis te maken met de werkwijze van flutter",
+      "location": "Campus 11de Linie – lokaal G516 ",
+      "date": "17/11/2021 ",
+      "duration": "3u",
+      "domain": "Seminaries",
+      "longForm": "none",
+      "media": ["none","none","none"]
+    },
+    "7":{
+      "title": "Seminarie – Konsolidate: Solid",
+      "description": "Konsolidate kwam kort uitleggen wat hun bedrijf is en doet. Vervolgens werd het principe van solid uitgelegd aan de hand van de use cases. Daarna volgde er een korte workshop waarin er een solid-pod werd opgezet.",
+      "location": "Online- presentatie via Teams door Konsolidate ",
+      "date": "15/12/2021",
+      "duration": "3u",
+      "domain": "Seminaries",
+      "longForm": "none",
+      "media": ["03-01","none","none"]
+    },
+    "8":{
+      "title": "Seminarie – Nviso: Office maldocs",
+      "description": "Doordat het seminarie van Sogeti niet doorging ben ik aangesloten bij het seminarie van Nviso.\nNviso kwam gaf een uiteenzetting van hoe malware vaak verborgen zit in officedocumenten. Ook werd er een workshop gegeven om met de tools te laren werken die toelaten een maldoc analyse te maken.",
+      "location": "Online- presentatie via Teams door Nviso ",
+      "date": "12/01/2022 ",
+      "duration": "3u",
+      "domain": "Seminaries",
+      "longForm": "none",
+      "media": ["none","none","none"]
+    },
+    "9":{
+      "title": "POP-sessie – Brein aan het werk",
+      "description": "We gebruiken het internet voor ons werk, onze studies en in onze vrije tijd. In deze POP-sessie werd er gekeken welk effect dit heeft op onze hersenen en gezocht naar tools om ons werk zo efficiënt mogelijk aan te pakken.",
+      "location": "•Online- presentatie via Teams ",
+      "date": "16/03/2021  ",
+      "duration": "2u",
+      "domain": "Persoonlijke ontwikkeling",
+      "longForm": "none",
+      "media": ["none","none","none"]
+    },
+    "10":{
+      "title": "POP-sessie – Veerkrachtige Teams",
+      "description": "Tijdens deze popsessie werd er gekeken naar zelf ontplooiing en veerkracht, hoe kan je omgaan met moeilijke situaties. Ook groepswerk en communicatie binnen een team kwamen ter sprake.",
+      "location": "Online- presentatie via Teams",
+      "date": " 23/03/2021 ",
+      "duration": "2u",
+      "domain": "Persoonlijke ontwikkeling",
+      "longForm": "none",
+      "media": ["04-01","none","none"]
+    },
+    "11":{
+      "title": "Projectweek",
+      "description": "Tijdens de projectweek werden er allerhande activiteiten georganiseerd. Zowel op het vlak van persoonlijke ontwikkeling maar ook op academisch vlak. Zo werd er aandacht besteed aan teamwork en stelde ik mijn eigen kernkwadrant op. Ook academisch schrijven en LinkedIn passeerde de revue. De week eindigde met de jaarlijkse(online) jobbeurs.",
+      "location": "Online via Teams ",
+      "date": "15/02/2022 – 19/02/2022",
+      "duration": "27u",
+      "domain": "Persoonlijke ontwikkeling",
+      "longForm": "none",
+      "media": ["none","none","none"]
+    },
+    "12":{
+      "title": "POP-sessie – 'My Team and I'",
+      "description": "In deze pop-sessie probeerde Learning Path het verschil tussen een groep en een team in kaart te brengen, om zo dan het team te verbeteren. Na een korte uitleg moesten we in team enkele opdrachten en raadsels oplossen.",
+      "location": "Corda campus",
+      "date": "13/10/2021",
+      "duration": "3u",
+      "domain": "Persoonlijke ontwikkeling",
+      "longForm": "none",
+      "media": ["none","none","none"]
+    },
+    "13":{
+      "title": "Innovatieroute: Lowcode",
+      "description": "Ik heb de innovatie route lowcode gekozen, tijdens dit innovatie traject maakte ik kennis met no-code/low-code platformen en de filosofie hierachter. De volgende bedrijven kwamen workshops geven: Aziri, Brightfox, iAdvise, Apvine, Providit",
+      "location": "Gebouw B campus Elfde linie ",
+      "date": "07/10/2022 – 21/10/2022 (wekelijks 1 dag) ",
+      "duration": "25u",
+      "domain": "Innovatie",
+      "longForm": "none",
+      "media": ["05-01","05-02","none"]
+    },
+    "14":{
+      "title": "Innovatieroute: Hackaton",
+      "description": "Tijdens deze hackaton werden er minigames gemaakt in Unity voor Android tablets met als doelgroep de bewoners van Sint-Oda. De hackaton werd georganiseerd door PXL-research en studenten Ergotherapie.",
+      "location": "online via Teams",
+      "date": "15/02/2022 – 16/02/2022 ",
+      "duration": "25u",
+      "domain": "Innovatie",
+      "longForm": "none",
+      "media": ["06-01","06-02","06-03"]
+    },
+    "15":{
+      "title": "Extra - Official Brainjar Hackaton",
+      "description": "Tijdens de eerste jaarlijkse Brainjar hackaton moesten de werknemers van Brainjar een product ontwikkelen dat blinde en slechtziende kan ondersteunen aan de hand van Tags.",
+      "location": "Kantoor Brainjar Gaston Geenslaan 11, 3001 Leuven ",
+      "date": "23/03/2022 ",
+      "duration": "8u",
+      "domain": "Student engagement",
+      "longForm": "none",
+      "media": ["07-01","07-02","07-03"]
+    },
+    "16":{
+      "title": "Extra - Seminarie – The impact of AI on job Quality",
+      "description": "Laura Nurski onderzocht het effect van ai op de job quality van mensen. Tijdens dit seminarie presenteerde ze haar eerste resultaten.",
+      "location": "Online via Zoom",
+      "date": "27/04/2022",
+      "duration": "2u",
+      "domain": "Seminarie",
+      "longForm": "none",
+      "media": ["08-01","08-02","08-03"]
     }
   },
   "ConfirmedRides": {

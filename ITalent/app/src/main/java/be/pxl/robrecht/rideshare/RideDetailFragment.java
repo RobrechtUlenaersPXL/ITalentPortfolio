@@ -2,12 +2,15 @@ package be.pxl.robrecht.rideshare;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.app.Fragment;
+
+import com.squareup.picasso.Picasso;
 
 import be.pxl.robrecht.rideshare.data.model.ITalentActivity;
 
@@ -24,8 +27,8 @@ public class RideDetailFragment extends Fragment {
         View view = inflater.inflate(R.layout.activity_ride_detail_fragment, container, false);
         int placeHolder = R.drawable.space_invader;
         media1 = view.findViewById(R.id.detailMedia1);
-        //media2 = view.findViewById(R.id.detailMedia2);
-        //media3 = view.findViewById(R.id.detailMedia3);
+        media2 = view.findViewById(R.id.detailMedia3);
+        media3 = view.findViewById(R.id.detailMedia3);
 
         Bundle bundle = getArguments();
         TextView activityTitle = (TextView) view.findViewById(R.id.detailActivityTitle);
@@ -45,33 +48,37 @@ public class RideDetailFragment extends Fragment {
             duration.setText(activity.getDuration());
             description.setText(activity.getDescription());
             domain.setText(activity.getDomain());
-            if (!activity.getLongForm().equals("None")){
+            if (!activity.getLongForm().equals("none")){
                 //longForm.setText(activity.getLongForm());
             }
-            /*
-            imageUrl1 = "";
-            String mediaId = "1-1";
-            FirebaseDatabase.getInstance().getReference().child("ITalentUrls").child(mediaId).get()
-                    .addOnCompleteListener(new OnCompleteListener<DataSnapshot>() {
-                        @Override
-                        public void onComplete(@NonNull Task<DataSnapshot> task) {
-                            if (!task.isSuccessful()) {
+            if(!activity.getMedia().get(0).equals("none")){
+                imageUrl1 = activity.getMedia().get(0);
+                Log.d("firebase",imageUrl1);
+                Picasso.with(getContext()).load(imageUrl1).into(media1);
 
-                            }
-                            else {
-                                if ( task.getResult().getValue() != null){
-                                    imageUrl = String.valueOf(task.getResult().getValue());
-                                    Log.d("firebase", String.valueOf(task.getResult().getValue()));
-                                    Picasso.with(getContext()).load(imageUrl).into(userAvatar);
-                                }
-                                else{
-                                    userAvatar.setImageResource(placeHolder);
-                                }
+            }else{
+                media1.setVisibility(View.GONE);
+            }
+            if(!activity.getMedia().get(1).equals("none")){
+                imageUrl2 = activity.getMedia().get(1);
+                Log.d("firebase",imageUrl2);
+                Picasso.with(getContext()).load(imageUrl2).into(media2);
 
-                            }
-                        }
-                    });
-            */
+            }else{
+                media2.setVisibility(View.GONE);
+            }
+            if(!activity.getMedia().get(2).equals("none")){
+                imageUrl3 = activity.getMedia().get(2);
+                Log.d("firebase",imageUrl3);
+                Picasso.with(getContext()).load(imageUrl3).into(media3);
+
+            }else{
+                media3.setVisibility(View.GONE);
+            }
+
+
+
+
         }
         return view;
     }
