@@ -1,0 +1,57 @@
+<resources>
+    <string-array name="supported_languages">
+        <item>en</item>
+        <item>nl</item>
+        <item>fr</item>
+    </string-array>
+    <string name="app_name">RideShare</string>
+    <string name="choose_language">choose a language</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email" translatable="false">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_activity_item_detail_host" translatable="false">ItemDetailHostActivity</string>
+    <string name="title_item_list" translatable="false">Items</string>
+    <string name="title_item_detail" translatable="false">Item Detail</string>
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="shared_ride">you shared your ride</string>
+    <string name="ride_edited">you edited your ride</string>
+    <string name="ride_deleted">you deleted your ride</string>
+    <string name="ride_deleted_failed">could not delete ride as non are selected</string>
+    <string name="ride_edit_failed">could not edit ride as non are selected</string>
+    <string name="choose_profile_picture">choose a new profile picture</string>
+    <string name="changed_language">you changed language to english</string>
+    <string name="succesfull_upload">succesfully uploaded new profile picture</string>
+    <string name="start_location">Start Location</string>
+    <string name="end_location">End Location</string>
+    <string name="ride_date">Date of the ride</string>
+    <string name="ride_hour">Hour of the Ride</string>
+    <string name="share_ride_button">Share Ride</string>
+    <string name="edit_ride_button">Edit Ride</string>
+    <string name="delete_ride_button">Delete Ride</string>
+    <string name="username">UserName</string>
+    <string name="useremail">UserEmail</string>
+    <string name="language_selection">Language Selection</string>
+    <string name="nightmode">NightMode</string>
+    <string name="upload_profile_picture">Upload Profile Picture</string>
+    <string name="settings">Settings</string>
+    <string name="edit_rides">edit rides</string>
+    <string name="confirmride">Confirm Ride</string>
+    <string name="log_out">Log out</string>
+    <string name="generate_qr_code">generate QR Code</string>
+    <string name="scan_qr_code" translatable="false">Scan QR-Code</string>
+    <string name="scan_result_title" translatable="false">scan QR Code</string>scan_result_title
+    <string name="positive_button" translatable="false">Confirm</string>
+    <string name="failed_scan">Scan has failed, try again</string>
+    <string name="for_flash_use_volume">For flash use volume button</string>
+    <string name="share_ride">Share Ride</string>
+    <string name="choose_language_button">choose</string>
+    <string name="activityTitle" />
+
+
+</resources>

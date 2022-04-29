@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Robrecht/AndroidStudioProjects/RideShare/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3828125" />
+        <entry key="..\:/Users/Robrecht/AndroidStudioProjects/RideShare/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3828125" />
+        <entry key="..\:/Users/Robrecht/AndroidStudioProjects/RideShare/app/src/main/res/layout-land/activity_list_view_rides.xml" value="0.5" />
+        <entry key="..\:/Users/Robrecht/AndroidStudioProjects/RideShare/app/src/main/res/layout-sw600dp/activity_ride_detail.xml" value="0.275" />
+        <entry key="..\:/Users/Robrecht/AndroidStudioProjects/RideShare/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.23560910307898258" />
+        <entry key="..\:/Users/Robrecht/AndroidStudioProjects/RideShare/app/src/main/res/layout-w936dp/activity_login.xml" value="0.275" />
+        <entry key="..\:/Users/Robrecht/AndroidStudioProjects/RideShare/app/src/main/res/layout/activity_list_view_rides.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Robrecht/AndroidStudioProjects/RideShare/app/src/main/res/layout/activity_list_view_rides_fragment.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Robrecht/AndroidStudioProjects/RideShare/app/src/main/res/layout/activity_login.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Robrecht/AndroidStudioProjects/RideShare/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/Robrecht/AndroidStudioProjects/RideShare/app/src/main/res/layout/activity_register.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/Robrecht/AndroidStudioProjects/RideShare/app/src/main/res/layout/activity_ride_detail.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Robrecht/AndroidStudioProjects/RideShare/app/src/main/res/layout/activity_ride_detail_fragment.xml" value="0.27350427350427353" />
+        <entry key="..\:/Users/Robrecht/AndroidStudioProjects/RideShare/app/src/main/res/layout/activity_ride_detail_view.xml" value="0.35104166666666664" />
+        <entry key="..\:/Users/Robrecht/AndroidStudioProjects/RideShare/app/src/main/res/layout/fragment_item_detail.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Robrecht/AndroidStudioProjects/RideShare/app/src/main/res/layout/fragment_item_list.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Robrecht/AndroidStudioProjects/RideShare/app/src/main/res/layout/item_list_content.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Robrecht/AndroidStudioProjects/RideShare/app/src/main/res/layout/main_activity.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Robrecht/AndroidStudioProjects/RideShare/app/src/main/res/layout/main_fragment.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Robrecht/AndroidStudioProjects/RideShare/app/src/main/res/layout/rides_recycler_view_list_item.xml" value="0.75" />
+        <entry key="..\:/Users/Robrecht/Documents/GitHub/ITalentPortfolio/ITalent/app/src/main/res/layout-land/activity_list_view_rides.xml" value="0.31040564373897706" />
+        <entry key="..\:/Users/Robrecht/Documents/GitHub/ITalentPortfolio/ITalent/app/src/main/res/layout/activity_list_view_rides.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Robrecht/Documents/GitHub/ITalentPortfolio/ITalent/app/src/main/res/layout/activity_list_view_rides_fragment.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Robrecht/Documents/GitHub/ITalentPortfolio/ITalent/app/src/main/res/layout/activity_ride_detail.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Robrecht/Documents/GitHub/ITalentPortfolio/ITalent/app/src/main/res/layout/activity_ride_detail_fragment.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Robrecht/Documents/GitHub/ITalentPortfolio/ITalent/app/src/main/res/layout/activity_settings_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Robrecht/Documents/GitHub/ITalentPortfolio/ITalent/app/src/main/res/layout/rides_recycler_view_list_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Robrecht/Documents/GitHub/ITalentPortfolio/ITalent/app/src/main/res/menu/settings_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Robrecht/Documents/GitHub/mobile-development-project-robrechtulenaers/RideShare/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3828125" />
+        <entry key="..\:/Users/Robrecht/Documents/GitHub/mobile-development-project-robrechtulenaers/RideShare/app/src/main/res/drawable/activity_settings_menu.xml" value="0.3828125" />
+        <entry key="..\:/Users/Robrecht/Documents/GitHub/mobile-development-project-robrechtulenaers/RideShare/app/src/main/res/drawable/ic_add_background.xml" value="0.3828125" />
+        <entry key="..\:/Users/Robrecht/Documents/GitHub/mobile-development-project-robrechtulenaers/RideShare/app/src/main/res/drawable/ic_add_foreground.xml" value="0.3828125" />
+        <entry key="..\:/Users/Robrecht/Documents/GitHub/mobile-development-project-robrechtulenaers/RideShare/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3828125" />
+        <entry key="..\:/Users/Robrecht/Documents/GitHub/mobile-development-project-robrechtulenaers/RideShare/app/src/main/res/layout-land/activity_list_view_rides.xml" value="0.31040564373897706" />
+        <entry key="..\:/Users/Robrecht/Documents/GitHub/mobile-development-project-robrechtulenaers/RideShare/app/src/main/res/layout-land/activity_own_rides_list.xml" value="0.2793103448275862" />
+        <entry key="..\:/Users/Robrecht/Documents/GitHub/mobile-development-project-robrechtulenaers/RideShare/app/src/main/res/layout-land/ownRides_recycler_view_list_item.xml" value="0.31040564373897706" />
+        <entry key="..\:/Users/Robrecht/Documents/GitHub/mobile-development-project-robrechtulenaers/RideShare/app/src/main/res/layout/activity_confirm_ride.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Robrecht/Documents/GitHub/mobile-development-project-robrechtulenaers/RideShare/app/src/main/res/layout/activity_confirm_ride_fragment.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Robrecht/Documents/GitHub/mobile-development-project-robrechtulenaers/RideShare/app/src/main/res/layout/activity_create_ride.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Robrecht/Documents/GitHub/mobile-development-project-robrechtulenaers/RideShare/app/src/main/res/layout/activity_create_ride_fragment.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Robrecht/Documents/GitHub/mobile-development-project-robrechtulenaers/RideShare/app/src/main/res/layout/activity_list_view_own_rides_fragment.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Robrecht/Documents/GitHub/mobile-development-project-robrechtulenaers/RideShare/app/src/main/res/layout/activity_list_view_rides.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Robrecht/Documents/GitHub/mobile-development-project-robrechtulenaers/RideShare/app/src/main/res/layout/activity_list_view_rides_fragment.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Robrecht/Documents/GitHub/mobile-development-project-robrechtulenaers/RideShare/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Robrecht/Documents/GitHub/mobile-development-project-robrechtulenaers/RideShare/app/src/main/res/layout/activity_own_ride_detail_fragment.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Robrecht/Documents/GitHub/mobile-development-project-robrechtulenaers/RideShare/app/src/main/res/layout/activity_own_ride_edit.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Robrecht/Documents/GitHub/mobile-development-project-robrechtulenaers/RideShare/app/src/main/res/layout/activity_own_ride_edit_fragment.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Robrecht/Documents/GitHub/mobile-development-project-robrechtulenaers/RideShare/app/src/main/res/layout/activity_own_rides_list.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Robrecht/Documents/GitHub/mobile-development-project-robrechtulenaers/RideShare/app/src/main/res/layout/activity_register.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Robrecht/Documents/GitHub/mobile-development-project-robrechtulenaers/RideShare/app/src/main/res/layout/activity_ride_detail.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Robrecht/Documents/GitHub/mobile-development-project-robrechtulenaers/RideShare/app/src/main/res/layout/activity_ride_detail_fragment.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Robrecht/Documents/GitHub/mobile-development-project-robrechtulenaers/RideShare/app/src/main/res/layout/activity_settings_menu.xml" value="0.3020833333333333" />
+        <entry key="..\:/Users/Robrecht/Documents/GitHub/mobile-development-project-robrechtulenaers/RideShare/app/src/main/res/layout/activity_settings_menu_bu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Robrecht/Documents/GitHub/mobile-development-project-robrechtulenaers/RideShare/app/src/main/res/layout/activity_settings_menu_fragment.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Robrecht/Documents/GitHub/mobile-development-project-robrechtulenaers/RideShare/app/src/main/res/layout/activity_test.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Robrecht/Documents/GitHub/mobile-development-project-robrechtulenaers/RideShare/app/src/main/res/layout/fragment_own_rides_list.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/Robrecht/Documents/GitHub/mobile-development-project-robrechtulenaers/RideShare/app/src/main/res/layout/own_rides_list_fragment.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Robrecht/Documents/GitHub/mobile-development-project-robrechtulenaers/RideShare/app/src/main/res/layout/own_rides_recycler_view_list_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Robrecht/Documents/GitHub/mobile-development-project-robrechtulenaers/RideShare/app/src/main/res/layout/rides_recycler_view_list_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Robrecht/Documents/GitHub/mobile-development-project-robrechtulenaers/RideShare/app/src/main/res/menu/settings_menu.xml" value="0.36666666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
