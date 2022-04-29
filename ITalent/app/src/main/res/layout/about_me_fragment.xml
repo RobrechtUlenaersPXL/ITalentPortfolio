@@ -50,13 +50,15 @@
 
                 <TextView
                     android:id="@+id/aboutMeIntroText"
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
                     android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
                     android:text="@string/intro"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.0"
-                    app:layout_constraintStart_toStartOf="@+id/AboutMeIntro"
+                    app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/AboutMeIntro" />
 
                 <TextView
@@ -72,11 +74,15 @@
 
                 <TextView
                     android:id="@+id/aboutMeReflectionText"
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
                     android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
                     android:text="@string/reflection"
-                    app:layout_constraintStart_toStartOf="@+id/aboutMeReflection"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/aboutMeReflection" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>

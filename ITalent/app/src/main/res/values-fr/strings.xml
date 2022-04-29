@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">I-TalentApp</string>
     <string name="choose_language">choisir une langue</string>
     <string name="title_activity_login">login</string>
@@ -24,8 +24,31 @@
     <string name="activitylocation">location d\'activite</string>
     <string name="activitydate">date d\' activite</string>
     <string name="acitvityduration">duration d\'activite</string>
-    <string name="intro">Introgfdsjhkfjhdks</string>
-    <string name="reflection">fdsjhlkfdskjkjfd</string>
     <string name="activitydomain">Domain d\'activite</string>
     <string name="activitydescription">description d\'activite</string>
+    <string name="reflection">
+        Tout au long de mes études à PXL, j\'ai grandi en tant que personne dans plusieurs domaines. Par exemple, grâce aux nombreux travaux de groupe avec des personnes que je ne connaissais pas auparavant, je suis devenu bien meilleur pour travailler avec de nouvelles personnes. J\'ai aussi souvent joué un rôle de guide, car sinon le travail de groupe n\'aurait probablement pas abouti. Je pense donc avoir énormément progressé dans le domaine de l\'"empathie". Je suis toujours introverti, mais dans le contexte du travail, je suis certainement sorti de ma coquille.
+
+        \n\nTout au long de la formation, j\'ai également appris à prendre des initiatives et à combler les lacunes d\'une tâche plutôt que d\'attendre une réponse. Il est préférable de présenter une solution et de demander une confirmation que d\'attendre pendant des jours un e-mail clarifiant ce qui est attendu.
+
+        \n\nAu cours de mon stage, le caractère pluridisciplinaire de notre formation s\'est également avéré utile. Pendant les vacances de Pâques, moi et un autre étudiant de PXL étions les seuls stagiaires de notre équipe de 6 personnes. Tout à coup, nous étions à la fois ai-ingénieur, développeur frontal et chef de projet. Malgré les différentes casquettes que nous avons dû porter durant cette période, tout s\'est bien passé durant ces deux semaines de vacances de Pâques.
+
+        \n\nJ\'ai également progressé dans d\'autres domaines pendant le cours. Je souffre beaucoup de la procrastination, qui était si mauvaise que je ne respectais (pas) les délais. Je ne vais pas prétendre que je ne procrastine plus, mais c\'est beaucoup mieux qu\'avant. Cela se voit également dans mes notes tout au long du programme. La première année, j\'ai eu quelques reprises, à partir de la deuxième année, je n\'ai plus eu de reprises (pour l\'instant).
+
+        \n\nQuoi qu\'il en soit, je participerai à l\'avenir à d\'autres séminaires et hackathons sur le sujet. J\'ai beaucoup appris lors de séminaires, même si ce ne sont souvent que des connaissances superficielles. C\'est une énorme valeur ajoutée si vous reprenez contact avec ce sujet plus tard. Les hackatons sont également excellents pour apprendre à penser en termes de résolution de problèmes et de contraintes de temps. En outre, vous êtes souvent plongé dans un bain de nouvelles technologies, ce que je ne ferais jamais par moi-même.
+        \n\nEn ce qui concerne ma trajectoire d\'apprentissage, la pandémie de COVID-19 ne peut bien sûr pas être manquée. Je fais probablement partie de la minorité lorsque je dis que l\'idée des cours en ligne ne m\'a pas déplu, et que je l\'ai même souvent trouvée une valeur ajoutée. Il n\'y a que dans le projet informatique que j\'ai trouvé que le travail en ligne était souvent difficile, les réunions et les rétrospectives en ligne sont difficiles quand on ne travaille que deux jours par semaine. La possibilité de revoir les leçons par la suite à mon propre rythme a été une aubaine pour moi. Pendant mon stage, j\'étais heureuse de pouvoir me rendre physiquement au bureau tous les jours, simplement parce qu\'il était beaucoup plus facile de demander de l\'aide que de parler à quelqu\'un en ligne via Slack.
+        \n\nRétrospectivement, je suis également très heureux d\'avoir choisi d\'obtenir un diplôme en IA et en robotique. Lorsque j\'ai dû faire mon choix, j\'étais dans un doute extrême entre l\'AnR et le développement complet. Un an et demi plus tard, je peux dire avec certitude que l\'IA et la robotique était le bon choix des deux. L\'apprentissage automatique et plus particulièrement la vision par ordinateur est un domaine dans lequel j\'aimerais continuer à travailler pendant des années. Si je n\'avais pas erré dans l\'enseignement supérieur pendant quelques années avant de me retrouver au pxl, j\'aurais envisagé d\'obtenir une autre maîtrise en informatique. Mais maintenant, je pense qu\'il est temps d\'entrer dans le monde du travail avec mon diplôme en poche.
+    </string>
+    <string name="intro">
+        Je suis un étudiant en troisième année d\'informatique appliquée, avec une spécialisation en IA et robotique. À l\'école, je m\'intéresse principalement à l\'apprentissage automatique et plus particulièrement à la vision par ordinateur. En dehors de l\'école, je m\'intéresse aux jeux, aux sports (rugby, cyclisme) et aux films.
+
+        \n\nJe suis quelqu\'un qui est très orienté vers les objectifs. J\'aime terminer une tâche rapidement, puis passer à la suivante. De cette façon, un projet continue d\'avancer et n\'est pas bloqué. Mon grand écueil est la paresse dans mon travail. Parce que je veux travailler de manière orientée vers un objectif, j\'ai souvent tendance à effectuer les tâches demandées et à ne rien faire de plus. Faire plus que ce qui est demandé est donc un défi pour moi. Ma plus grande allergie, ce sont les gens qui sont trop perfectionnistes, je veux avancer dans le projet, passer au billet suivant. Alors que certaines personnes donnent encore aux bourgeons une nuance de vert différente pour la quinzième fois.
+
+         \n\nDans les relations sociales, je suis plutôt introverti, je suis souvent distant et réservé avec les personnes que je ne connais pas très bien. Travailler avec de nouvelles personnes n\'est donc pas mon point fort. J\'aborde souvent les nouvelles personnes avec un œil critique. Je suis également quelqu\'un qui aime avoir une tâche ou un objectif bien défini, afin de pouvoir m\'occuper de la manière dont quelque chose peut être réalisé en pratique sans avoir à déterminer d\'abord des concepts ou des dessins. Une fois que je connais un peu mon équipe, je suis quelqu\'un qui prend souvent un rôle de guide. Je sais où je veux aller, quel est l\'objectif final et j\'essaie d\'orienter et de motiver mon équipe dans cette direction. Si quelqu\'un d\'autre assume cette tâche et s\'en acquitte bien, je ne reprendrai certainement pas ce rôle. Une fois que je me sentirai à l\'aise dans un groupe, je donnerai toujours mon avis si je pense qu\'il apporte une valeur ajoutée. D\'un autre côté, je n\'ai aucun problème à travailler individuellement sur un projet.
+
+         \n\nJe suis une personne avec peu d\'ambitions, je vis très difficilement de semaine en semaine et j\'ai donc peu d\'ambitions à long terme. Dans quelques années, j\'aimerais bien sûr avoir un bel emploi permanent dans une bonne entreprise. Mais dire que j\'ai un travail ou un objectif spécifique en tête n\'est pas dans ma nature. Je dois toujours dire que personne ne sait ce que l\'avenir nous réserve.
+
+         \n\nUne chose que je veux continuer à améliorer est ma relation avec les nouvelles personnes.
+
+    </string>
 </resources>
