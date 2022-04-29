@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">RideShare</string>
+    <string name="app_name">I-TalentApp</string>
     <string name="choose_language">choisir une langue</string>
     <string name="title_activity_login">login</string>
     <string name="prompt_password">Mot de passe</string>
@@ -10,33 +10,22 @@
     <string name="invalid_username">Nom non valide</string>
     <string name="invalid_password">Le mot de passe doit comporter >5 caractères</string>
     <string name="login_failed">Échec de la connexion</string>
-    <string name="shared_ride">vous avez partagé votre trajet</string>
-    <string name="ride_edited">vous avez modifié votre trajet</string>
-    <string name="ride_deleted">vous avez supprimé votre trajet</string>
-    <string name="ride_deleted_failed">Impossible de supprimer le trajet car non sont sélectionnés</string>
-    <string name="choose_profile_picture">choisir une nouvelle photo de profil</string>
     <string name="changed_language">vous avez changé de langue pour la Francais</string>
-    <string name="succesfull_upload">nouvelle photo de profil téléchargée avec succès</string>
-    <string name="start_location">Emplacement de départ</string>
-    <string name="end_location">destination</string>
-    <string name="ride_date">Date de la balade</string>
-    <string name="ride_hour">Heure de la balade</string>
-    <string name="share_ride_button">Partager le trajet</string>
-    <string name="edit_ride_button">Modifier le trajet</string>
-    <string name="delete_ride_button">Supprimer  le Ride</string>
     <string name="username">Nom d\'utilisateur</string>
     <string name="useremail">Utilisateur email</string>
     <string name="language_selection">Sélection de la langue</string>
     <string name="nightmode">Mode nuit</string>
-    <string name="upload_profile_picture">Télécharger la photo de profil</string>
     <string name="settings">Paramètres</string>
-    <string name="edit_rides">modifier les trajet</string>
-    <string name="confirmride">Confirmer un trajet</string>
     <string name="log_out">Se déconnecter</string>
-    <string name="generate_qr_code">générer un code QR</string>
-    <string name="failed_scan">analyse a échoué, réessayez</string>
-    <string name="for_flash_use_volume">Pour flash, utilisez le bouton de volume</string>
-    <string name="share_ride">Partager Trajet</string>
     <string name="choose_language_button">choisir</string>
-    <string name="ride_edit_failed">Impossible de changer le trajet car non sont sélectionnés</string>
+    <string name="activityTitle" >"titre de l'activité"</string>
+    <string name="about_me">à propos de moi</string>
+    <string name="activitytitle">activity title</string>
+    <string name="activitylocation">location d\'activite</string>
+    <string name="activitydate">date d\' activite</string>
+    <string name="acitvityduration">duration d\'activite</string>
+    <string name="intro">Introgfdsjhkfjhdks</string>
+    <string name="reflection">fdsjhlkfdskjkjfd</string>
+    <string name="activitydomain">Domain d\'activite</string>
+    <string name="activitydescription">description d\'activite</string>
 </resources>

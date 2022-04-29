@@ -1,13 +1,10 @@
 package be.pxl.robrecht.rideshare;
 
 import android.app.Activity;
-import android.content.Intent;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 
 import com.firebase.ui.auth.AuthUI;
-import com.firebase.ui.auth.data.model.User;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
@@ -19,7 +16,6 @@ import java.util.Arrays;
 import java.util.List;
 
 import be.pxl.robrecht.rideshare.data.model.ITalentActivity;
-import be.pxl.robrecht.rideshare.data.model.Ride;
 
 public class FireBaseUtil {
 

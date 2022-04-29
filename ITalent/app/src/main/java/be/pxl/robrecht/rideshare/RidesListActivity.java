@@ -85,6 +85,10 @@ public class RidesListActivity extends AppCompatActivity {
                 Intent intent = new Intent(this, SettingsMenuActivity.class);
                 startActivity(intent);
                 return true;
+            case R.id.action_aboutme:
+                Intent intentAboutMe = new Intent(this, AboutMeActivity.class);
+                startActivity(intentAboutMe);
+                return true;
             case R.id.action_home:
                 Intent intentHome = new Intent(this, RidesListActivity.class);
                 startActivity(intentHome);

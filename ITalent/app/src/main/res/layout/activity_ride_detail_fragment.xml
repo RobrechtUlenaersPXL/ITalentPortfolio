@@ -49,7 +49,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/small_margin"
-                    android:text="@string/start_location"
+                    android:text="@string/activitydate"
                     app:layout_constraintEnd_toStartOf="@+id/detailActivityDuration"
                     app:layout_constraintHorizontal_bias="0.5"
                     app:layout_constraintStart_toStartOf="parent"
@@ -61,17 +61,17 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
-                    android:text="Domain"
+                    android:text="@string/activitydomain"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/detailActivityDate" />
 
                 <TextView
-                    android:id="@+id/detailActivityDesciption"
+                    android:id="@+id/detailActivityDescription"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
-                    android:text="@string/end_location"
+                    android:text="@string/activitydescription"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.5"
                     app:layout_constraintStart_toStartOf="parent"
@@ -82,20 +82,20 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="@dimen/large_margin"
-                    android:text="@string/ride_date"
+                    android:text="@string/acitvityduration"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.5"
                     app:layout_constraintStart_toEndOf="@+id/detailActivityDate"
                     app:layout_constraintTop_toTopOf="@+id/detailActivityDate" />
 
                 <ImageView
-                    android:id="@+id/detailMedia1"
+                    android:id="@+id/aboutMePhoto"
                     android:layout_width="374dp"
                     android:layout_height="266dp"
                     android:layout_marginTop="20dp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/detailActivityDesciption"
+                    app:layout_constraintTop_toBottomOf="@+id/detailActivityDescription"
                     tools:srcCompat="@drawable/space_invader" />
 
                 <ImageView
@@ -105,7 +105,7 @@
                     android:layout_marginTop="20dp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/detailMedia1"
+                    app:layout_constraintTop_toBottomOf="@+id/aboutMePhoto"
                     tools:srcCompat="@drawable/space_invader" />
 
                 <ImageView
@@ -118,19 +118,19 @@
                     app:layout_constraintTop_toBottomOf="@+id/detailMedia2"
                     tools:srcCompat="@drawable/space_invader" />
 
+                <TextView
+                    android:id="@+id/detailActivityLongForm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:text="Longform"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/detailMedia3" />
+
             </androidx.constraintlayout.widget.ConstraintLayout>
         </androidx.cardview.widget.CardView>
     </ScrollView>
-
-    <TextView
-        android:id="@+id/detailActivityLongForm"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:text="@string/ride_hour"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/scrollView2" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

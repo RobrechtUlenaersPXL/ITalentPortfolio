@@ -155,6 +155,10 @@ final int[] checkedLang = {-1};
                 FireBaseUtil.detachListener();
                 finish();
                 return true;
+            case R.id.action_aboutme:
+                Intent intentAboutMe = new Intent(this, AboutMeActivity.class);
+                startActivity(intentAboutMe);
+                return true;
             case R.id.action_settings:
                 Intent intent = new Intent(this, SettingsMenuActivity.class);
                 startActivity(intent);

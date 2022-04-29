@@ -26,8 +26,8 @@ public class RideDetailFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.activity_ride_detail_fragment, container, false);
         int placeHolder = R.drawable.space_invader;
-        media1 = view.findViewById(R.id.detailMedia1);
-        media2 = view.findViewById(R.id.detailMedia3);
+        media1 = view.findViewById(R.id.aboutMePhoto);
+        media2 = view.findViewById(R.id.detailMedia2);
         media3 = view.findViewById(R.id.detailMedia3);
 
         Bundle bundle = getArguments();
@@ -35,10 +35,9 @@ public class RideDetailFragment extends Fragment {
         TextView date = (TextView) view.findViewById(R.id.detailActivityDate);
         TextView location = (TextView) view.findViewById(R.id.detailActivityLocation);
         TextView duration = (TextView) view.findViewById(R.id.detailActivityDuration);
-        TextView description = (TextView) view.findViewById(R.id.detailActivityDesciption);
+        TextView description = (TextView) view.findViewById(R.id.detailActivityDescription);
         TextView domain = (TextView) view.findViewById(R.id.detailActivityDomain);
-        //TextView longForm = (TextView) view.findViewById(R.id.longform);
-        media1.setImageResource(placeHolder);
+        TextView longForm = (TextView) view.findViewById(R.id.detailActivityLongForm);
         Intent i = getActivity().getIntent();
         activity = (ITalentActivity) i.getSerializableExtra("clicked_activity");
         if(activity != null){
@@ -49,7 +48,10 @@ public class RideDetailFragment extends Fragment {
             description.setText(activity.getDescription());
             domain.setText(activity.getDomain());
             if (!activity.getLongForm().equals("none")){
-                //longForm.setText(activity.getLongForm());
+                longForm.setText(activity.getLongForm());
+
+            }else{
+                longForm.setVisibility(View.GONE);
             }
             if(!activity.getMedia().get(0).equals("none")){
                 imageUrl1 = activity.getMedia().get(0);

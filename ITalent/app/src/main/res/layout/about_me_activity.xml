@@ -2,20 +2,19 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="be.pxl.robrecht.rideshare.RidesListActivity"
+    tools:context="be.pxl.robrecht.rideshare.AboutMeActivity"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <fragment
-        android:id="@+id/fragmentContainerView2"
-        android:name="be.pxl.robrecht.rideshare.RidesListFragment"
+        android:id="@+id/fragmentAboutMe"
+        android:name="be.pxl.robrecht.rideshare.AboutMeFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginStart="@dimen/small_margin"
-        android:layout_marginTop="@dimen/small_margin"
-        android:layout_marginEnd="@dimen/small_margin"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        android:layout_marginStart="@dimen/tiny_margin"
+        android:layout_marginTop="@dimen/tiny_margin"
+        android:layout_marginEnd="@dimen/tiny_margin"
+        android:layout_marginBottom="@dimen/tiny_margin"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

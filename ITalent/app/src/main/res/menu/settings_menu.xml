@@ -3,14 +3,18 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
         android:id="@+id/action_home"
-        app:showAsAction="ifRoom"
-        android:icon="@drawable/car_icon"
-        android:title="home">
-    </item>
+        android:icon="@drawable/pxl_logo"
+        android:title="home"
+        app:showAsAction="ifRoom"></item>
     <item
         android:id="@+id/action_settings"
         app:showAsAction="never"
         android:title="@string/settings">
+    </item>
+    <item
+        android:id="@+id/action_aboutme"
+        app:showAsAction="never"
+        android:title="@string/about_me">
     </item>
     <item
         android:id="@+id/action_logout"
